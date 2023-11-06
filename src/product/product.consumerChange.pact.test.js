@@ -22,6 +22,7 @@ describe('Pact Verification', () => {
     // https://docs.pact.io/pact_broker/webhooks#using-webhooks-with-the-contract_requiring_verification_published-event
     // The URL will bave been passed in from the webhook to the CI job.
 
+
     if (!process.env.PACT_URL) {
       console.log('no pact url specified');
       return;
